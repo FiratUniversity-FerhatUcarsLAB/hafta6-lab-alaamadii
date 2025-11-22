@@ -7,7 +7,7 @@
 
 import java.util.Scanner;
 // calculate average score according to exam and assignments
-public class NotSystem{
+public class NotSistemi{
     public double calculateAverage(double vize, double finalExam, double odev){
         /*
          *  the numbers in the line is the system of counting the average 
@@ -59,7 +59,7 @@ public class NotSystem{
         Scanner input = new Scanner(System.in);
 
         // create an object of the class
-        NotSystem ogrenci = new NotSystem();
+        NotSistemi ogrenci = new NotSistemi();
 
 
         //input the vize sinav score
@@ -88,3 +88,4 @@ public class NotSystem{
     }
 
 }
+
